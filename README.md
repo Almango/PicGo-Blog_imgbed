@@ -11,8 +11,11 @@
 > 创建一个仓库用作图床的储存库
 
 1 . 创建完成成后，打开gihub的设置选项：`Settings`.
+
 2 . 在侧边栏点击：`Developer settings`。
+
 3 . 将`Personal access tokens` 展开，并点击`Tokens (Classic)`，新建一个tokens，自定义一个秘钥并确认。
+
 
 ![](https://cdn.jsdelivr.net/gh/Almango/Blog_imgbed@main/post/post_picgo_1.png)
 
@@ -33,11 +36,13 @@
 ![](https://cdn.jsdelivr.net/gh/Almango/Blog_imgbed@main/post/post_picgo_2.png)
 
 4 . 到这里，PicGo已经配置完成。
+
 5 . 可以正常上传图片。
 
 ### 说明
 
 1 . Github被当做图床的储存仓库，通过Token将仓库和PicGo连接起来，可以在PicGo中快速的向仓库中上传图片。
+
 2 . 为了防止Github被DNS污染，这里使用JSDliver来解决此问题。
 >sDelivr是一个免费开源的CDN解决方案，用于帮助开发者和站长。 包含 JavaScript 库、jQuery 插件、CSS 框架、字体等等 Web 上常用的静态资源。
 
